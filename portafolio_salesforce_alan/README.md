@@ -1,30 +1,54 @@
-# Portafolio - Alan Christopher De La Torre Ríos 👨‍💻
+# 🧠 Salesforce Developer Portfolio - Alan De La Torre
 
-Hola, soy Alan, un desarrollador junior especializado en Salesforce. Estoy comenzando mi carrera profesional y estoy en camino a certificarme como Salesforce Platform Developer I.
-
-Este portafolio contiene proyectos prácticos que muestran mis habilidades con Apex, SOQL, triggers, automatización y más dentro de la plataforma Salesforce.
+Bienvenido a mi portafolio como **Desarrollador Salesforce**. Aquí encontrarás ejemplos de mi trabajo, organizados por temas, incluyendo triggers, clases Apex y consultas SOQL. Este repositorio está diseñado para demostrar mis habilidades y aprendizaje continuo en Salesforce.
 
 ---
 
-## 📂 Proyectos
+## 📁 Estructura del Portafolio
 
-### 🔹 Trigger de validación de Contactos
-- Validación de campos al crear registros de contacto.
-- Código en Apex con lógica de negocio.
-- [Ver código](./proyectos/trigger-contacto/)
-
-### 🔹 Clase SOQL: búsqueda avanzada de cuentas
-- Clase que realiza consultas personalizadas usando SOQL.
-- [Ver código](./proyectos/clase-soql/)
-
-### 🔹 Mini app de gestión de tareas (en progreso)
-- Usa objetos personalizados, relaciones y automatización.
-- [Ver código](./proyectos/mini-app-tareas/)
+```
+portafolio_salesforce_alan/
+└── proyectos/
+    ├── trigger-contacto/
+    │   └── ValidarContacto.trigger
+    └── clase-soql/
+        └── BuscarCuentasSOQLTest.cls
+```
 
 ---
 
-## 🚀 Enlaces
+## 🚀 Proyectos Destacados
 
-- [Perfil Trailhead](https://trailhead.salesforce.com/me)
-- [LinkedIn](https://linkedin.com/in/tuusuario)
-- [Certificación (próximamente)]()
+### 🔹 Trigger: Validar Contacto
+
+- **Archivo:** `ValidarContacto.trigger`
+- **Descripción:** Evita que se guarde un contacto sin nombre (FirstName) o apellido (LastName).
+- **Objetivo:** Validar datos antes de que se guarde el registro en la base de datos.
+
+### 🔹 Clase Apex: Buscar Cuentas con SOQL
+
+- **Archivo:** `BuscarCuentasSOQLTest.cls`
+- **Descripción:** Clase que realiza consultas SOQL para recuperar cuentas en Salesforce.
+- **Objetivo:** Practicar y demostrar habilidades en consultas SOQL.
+
+---
+
+## 📚 Objetivo del Portafolio
+
+Este portafolio está orientado a:
+
+- Aplicar conocimientos en desarrollo Salesforce (Apex, Triggers, SOQL).
+- Prepararme para la certificación como **Salesforce Developer**.
+- Mostrar ejemplos de código limpios y funcionales para reclutadores y empleadores.
+
+---
+
+## 📬 Contacto
+
+- GitHub: [AlanRios94](https://github.com/AlanRios94)
+- LinkedIn:
+
+---
+
+Gracias por visitar mi portafolio 🙌  
+¡Estoy en búsqueda de mi primera oportunidad como desarrollador Salesforce!
